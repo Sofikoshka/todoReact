@@ -1,22 +1,20 @@
-Колокольчева Софія веб-проект з дісципліни Веб-технології та Веб-дизайн
-Веб застосунок "ToDo App"
-Проект виконан за допомогою JavaScript, фреймворка ReactJS та препроцесорів SCSS. В якості "серверу" був використан модуль json-server який відображує серверну частину застосунку
 
-ЯК ЗАПУСТИТИ ЗАСТОСУНОК
-у Visual Studio Code відкриваємо термінал (Terminal -> new Terminal) та запускаємо команду "npm start". Застосунок запуститься у вашому браузері на порті 3000.
-Якщо ж з папкою node_modules виникають проблеми, спочатку запускаємо команду "npm install", яка завантажить модулі.
-У новому терміналі запускаємо команду "npm run fake-json" яка запустить серверну частину застосунку на порті 3001.
+The project is made using JavaScript, the ReactJS framework and SCSS preprocessors. The json-server module was used as the "server", which displays the server part of the application
 
-ОПИС ЗАСТОСУНКУ
-ToDo App - це застосунок, в якому ви можете зберігати свої нотатки. Функціонал:
-- створення/видалення папки
-- створення/видалення нотатки
-- перейменування папки або нонатки
-- відмічання нотатки як "Виконано"
-- навігація по папкам
-- вибір кольору "кружочка" для ідентифікації папки
-Застосунок має простий та зручний дизайн, за допомогою якого можна з легкістю користуватися їм замість звичайних нотаток.
+HOW TO RUN THE APPLICATION
+in Visual Studio Code, open the terminal (Terminal -> new Terminal) and run the "npm start" command. The application will launch in your browser on port 3000.
+If there are problems with the node_modules folder, first run the "npm install" command, which will download the modules.
+In the new terminal, run the "npm run fake-json" command, which will launch the server part of the application on port 3001.
 
+APPLICATION DESCRIPTION
+ToDo App is an app where you can keep your notes. Functionality:
+- creating/deleting a folder
+- creating/deleting a note
+- renaming a folder or notebook
+- marking the note as "Done"
+- folder navigation
+- selection of "circle" color to identify the folder
+The app has a simple and user-friendly design that makes it easy to use instead of regular notes.
 
 
 
